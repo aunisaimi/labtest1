@@ -280,7 +280,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Text(
                         'Male Count: $maleCount',
-                        style: const TextStyle(fontSize: 16),
+                        style: const TextStyle(fontSize: 16,fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
@@ -293,7 +293,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Text(
                         'Female Count: $femaleCount',
-                        style: const TextStyle(fontSize: 16),
+                        style: const TextStyle(fontSize: 16,fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
@@ -306,7 +306,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Text(
                         'Average Male BMI: ${maleCount > 0 ? (maleBmiSum / maleCount).toStringAsFixed(2) : 'N/A'}',
-                        style: const TextStyle(fontSize: 16),
+                        style: const TextStyle(fontSize: 16,fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
@@ -319,7 +319,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Text(
                         'Average Female BMI: ${femaleCount > 0 ? (femaleBmiSum / femaleCount).toStringAsFixed(2) : 'N/A'}',
-                        style: const TextStyle(fontSize: 16),
+                        style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
